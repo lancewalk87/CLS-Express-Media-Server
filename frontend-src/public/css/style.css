@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+#background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+}
+.content{
+		margin-left:10%;
+		margin-right:10%;
+}
+.content h1 {
+    color: white;
+}
+.div-logo{
+	top:100px;
+}
+.headline{
+	top:300px;
+	color:white;
+	font-size:22px;
+	text-align:left;
+}
+.headline h2{
+	font-size:42px;
+	margin-bottom:20px;
+}
+.headline-content{
+width:50%;	
+}
+.form-inline{
+	margin-top:50px;
+}
+.txt-signup{
+	height:60px;
+	width:280px;
+	margin-right:10px;
+	border: 1px;
+}
+.btn-signup{
+	height:60px;
+	width:200px;
+	background-color: rgba(0,0,0,1.00);
+	border:rgba(0,0,0,1.00);
+	color:white;
+	font-size:24px;
+	 -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.btn-signup:hover{
+	background-color: white;
+	color:rgba(0,0,0,1.00);
+	
+}
+@media screen and (max-width:1280px){
+.headline{
+	top: 150px;
+}	
+
+}
+@media screen and (max-width: 768px){
+
+
+#background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+}
+.headline-content{
+width:100%;	
+
+}
+.headline h2{
+font-size:28px;
+margin-bottom:20px;
+}
+.headline{
+	/*margin-top:15px;*/
+}
+.headline-content span {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.form-inline{
+width:100%;	
+margin:50px 0 15%;
+}
+.txt-signup{
+	height:60px;
+	width:89%;
+	margin-right:10px;
+}
+.btn-signup{
+	height:60px;
+	width:27%;
+	font-size:18px;
+	margin-bottom: 14px;
+	margin-top: 15px;
+}	
+.div-logo{
+text-align: center;		
+}
+}
+@media screen and (max-width:568px){
+.img-logo{
+		width:80%;
+}
+.txt-signup{
+	height:60px;
+	margin-right:10px;
+}
+.btn-signup{
+	height:60px;
+	font-size:18px;
+	margin-bottom:29px;
+}
+.form-inline{
+text-align: center;
+}
+}
+@media screen and (max-width:498px){
+.form-group{
+		width:100%;
+}
+.txt-signup{
+	height:60px;
+	width:100%;
+	margin-right:0px;
+}
+.btn-signup{
+	height:60px;
+	width:40%;
+	font-size:18px;
+	margin-bottom: 14px;
+	margin: 0 30%;
+}
+}
+@media screen and (max-width:392px){
+#background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-25%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+}
+.txt-signup{
+	height:60px;
+	width:100%;
+	margin-right:10px;
+
+
+}
+.btn-signup{
+	height:60px;
+	width:40%;
+	font-size:18px;
+	margin-bottom: 14px;
+	margin: 0 30%;
+}
+}
